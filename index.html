@@ -468,6 +468,15 @@ section{scroll-margin-top:72px}
 .niches-list i{font-style:normal; opacity:.6}
 @media (max-width: 900px){ .niches-row{grid-template-columns:minmax(0,1fr); gap:var(--space-3)} }
 @media (max-width: 700px){ .hero{min-height:0} .site-head .nav-links{gap:var(--space-4)} }
+/* v10: one-line categories band, larger hero type + supporting line */
+.niches-row{grid-template-columns:minmax(0,1fr); gap:var(--space-3)}
+.niches-intro{display:flex; align-items:baseline; gap:var(--space-4); flex-wrap:wrap}
+.niches .eyebrow{margin:0}
+.niches-list{justify-content:space-between; gap:6px 14px; font-size:clamp(15px,1.3vw,19px); letter-spacing:.04em}
+@media (max-width: 1279px){ .niches-list{justify-content:flex-start; gap:6px 22px} .niches-list i{display:none} }
+@media (max-width: 900px){ .niches-intro{display:block} .niches .eyebrow{margin-bottom:var(--space-2)} .niches-list{gap:6px 18px} }
+.hero .lead{margin:var(--space-4) 0 0; max-width:44ch; font-size:18px; color:var(--ink-muted)}
+@media (min-width: 701px){ .hero-copy .wordmark{font-size:clamp(44px,6.4vw,96px); margin-bottom:var(--space-6)} .hero .lead{font-size:19px; margin-top:var(--space-5)} }
 </style>
 </head>
 <body>
@@ -493,6 +502,7 @@ section{scroll-margin-top:72px}
     <div class="hero-copy">
       <div class="wordmark"><span class="wm-inner">Nott Street</span></div>
       <h1>Where creators, brands, and media <em>intersect.</em></h1>
+      <p class="lead">Creator management and brand marketing, built on partnerships that last.</p>
       <div class="actions">
         <a class="btn accent" href="#contact">Work with us</a>
         <a class="btn secondary" href="#services">See what we do</a>
@@ -519,10 +529,10 @@ section{scroll-margin-top:72px}
   <section class="niches" aria-labelledby="niches-h">
     <div class="wrap niches-row reveal">
       <div class="niches-intro">
-        <span class="eyebrow" id="niches-h">Creator niches</span>
+        <span class="eyebrow" id="niches-h">Categories</span>
         <p>We partner with creators building engaged, close-knit audiences, and brands at every stage of growth.</p>
       </div>
-      <p class="niches-list"><span>Lifestyle</span><i aria-hidden="true">&middot;</i><span>Fashion</span><i aria-hidden="true">&middot;</i><span>Beauty</span><i aria-hidden="true">&middot;</i><span>Wellness</span><i aria-hidden="true">&middot;</i><span>Food &amp; Drink</span><i aria-hidden="true">&middot;</i><span>Home</span></p>
+      <p class="niches-list"><span>Lifestyle</span><i aria-hidden="true">&middot;</i><span>Fashion</span><i aria-hidden="true">&middot;</i><span>Beauty</span><i aria-hidden="true">&middot;</i><span>Health &amp; Wellness</span><i aria-hidden="true">&middot;</i><span>Food &amp; Drink</span><i aria-hidden="true">&middot;</i><span>Entertainment</span><i aria-hidden="true">&middot;</i><span>Home</span></p>
     </div>
   </section>
 
