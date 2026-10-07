@@ -490,6 +490,8 @@ section{scroll-margin-top:72px}
 .foot-mark{--fs:clamp(32px,9.6vw,126px); position:relative; gap:.24em; font-size:var(--fs); padding-block:calc(var(--fs)*.42); margin-bottom:0}
 .fm-word{position:relative; z-index:1; margin-right:0}
 .fm-word:last-of-type{margin-right:-.2em}
+.fm-lantern::after{content:""; position:absolute; left:36.5%; width:27%; top:56%; height:27%; background:var(--surface-alt)}
+.foot nav{margin-top:12px}
 .fm-lantern{--lh:calc(var(--fs)*2.1); position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); opacity:.13; z-index:0; pointer-events:none}
 @media (min-width: 1080px){ .hero .hero-copy .lead{max-width:none; white-space:nowrap; font-size:17px} }
 @media (min-width: 1200px){ .hero .hero-copy .lead{font-size:18px} }
