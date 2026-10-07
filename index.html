@@ -628,7 +628,7 @@ section{scroll-margin-top:72px}
   });
   // Inquiry form: saves to the site's inbox when this view can, otherwise points to email.
   // Paste your Formspree form URL here, e.g. 'https://formspree.io/f/abcdwxyz'
-  var FORM_ENDPOINT='';
+  var FORM_ENDPOINT='https://formspree.io/f/xzededyq';
   var form=document.getElementById('inquiry'), status=document.getElementById('f-status'), send=document.getElementById('f-send');
   var extras=[].slice.call(form.querySelectorAll('.extra'));
   function showExtra(){ var r=(form.querySelector('input[name="role"]:checked')||{}).value; extras.forEach(function(x){ x.hidden=x.getAttribute('data-for')!==r }) }
