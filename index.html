@@ -468,6 +468,13 @@ section{scroll-margin-top:72px}
 .niches-list i{font-style:normal; opacity:.6}
 @media (max-width: 900px){ .niches-row{grid-template-columns:minmax(0,1fr); gap:var(--space-3)} }
 @media (max-width: 700px){ .hero{min-height:0} .site-head .nav-links{gap:var(--space-4)} }
+/* v11: Nott Street house drawing behind Partnership First */
+.statement{position:relative; overflow:hidden}
+.statement .wrap{position:relative; z-index:1; grid-template-columns:minmax(0,1fr)}
+.statement .wrap > div{max-width:620px}
+.statement h2{margin-bottom:var(--space-4)}
+.statement-art{position:absolute; top:0; bottom:0; right:0; width:52%; margin:0; background:url(nott-street-house.jpg) 50% 58%/cover no-repeat; opacity:.55; -webkit-mask-image:linear-gradient(to right, transparent 0, #000 45%); mask-image:linear-gradient(to right, transparent 0, #000 45%)}
+@media (max-width: 900px){ .statement{padding-bottom:0} .statement-art{position:relative; display:block; width:100%; height:240px; margin-top:var(--space-5); opacity:.6; background-position:50% 62%; -webkit-mask-image:linear-gradient(to bottom, transparent 0, #000 40%); mask-image:linear-gradient(to bottom, transparent 0, #000 40%)} }
 /* v10: one-line categories band, larger hero type + supporting line */
 .niches-row{grid-template-columns:minmax(0,1fr); gap:var(--space-3)}
 .niches-intro{display:flex; align-items:baseline; gap:var(--space-4); flex-wrap:wrap}
@@ -501,7 +508,7 @@ section{scroll-margin-top:72px}
 
     <div class="hero-copy">
       <div class="wordmark"><span class="wm-inner">Nott Street</span></div>
-      <h1>Where creators, brands, and media <em>intersect.</em></h1>
+      <h1>Where creators, brands, and digital media <em>intersect.</em></h1>
       <p class="lead">Creator management and brand marketing, built on partnerships that last.</p>
       <div class="actions">
         <a class="btn accent" href="#contact">Work with us</a>
@@ -512,18 +519,17 @@ section{scroll-margin-top:72px}
     <div class="strip" aria-hidden="true"><div class="row"><img src="kendall.jpg" alt="" loading="lazy"><img src="work-1.jpg" alt="" loading="lazy"><img src="work-2.jpg" alt="" loading="lazy"><img src="work-3.jpg" alt="" loading="lazy"><img src="work-4.jpg" alt="" loading="lazy"><img src="work-5.jpg" alt="" loading="lazy"><img src="kendall.jpg" alt="" loading="lazy"><img src="work-1.jpg" alt="" loading="lazy"><img src="work-2.jpg" alt="" loading="lazy"><img src="work-3.jpg" alt="" loading="lazy"><img src="work-4.jpg" alt="" loading="lazy"><img src="work-5.jpg" alt="" loading="lazy"></div></div>
   </section>
 
-  <div class="ticker" aria-hidden="true"><div class="ticker-row"><span>Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i><span>Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i><span>Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i><span>Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i></div></div>
+  <div class="ticker" aria-hidden="true"><div class="ticker-row"><span>Media Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i><span>Media Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i><span>Media Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i><span>Media Partnerships</span><i aria-hidden="true">&middot;</i><span>Affiliate Marketing</span><i aria-hidden="true">&middot;</i><span>Go-to-Market</span><i aria-hidden="true">&middot;</i><span>Brand &amp; Creative Strategy</span><i aria-hidden="true">&middot;</i><span>Events &amp; Activations</span><i aria-hidden="true">&middot;</i><span>Paid Media &amp; Search</span><i aria-hidden="true">&middot;</i></div></div>
 
   <section class="statement" aria-labelledby="statement-h">
     <div class="wrap">
       <div class="reveal">
         <span class="eyebrow">Partnership first</span>
         <h2 id="statement-h">Creators and digital media build the audiences that brands want to reach. We build the partnerships <em>in between.</em></h2>
-      </div>
-      <div class="reveal d1">
         <p>We bring creator management and brand marketing under one roof, so every partnership starts with people who already know and respect each other's work.</p>
       </div>
     </div>
+    <figure class="statement-art" aria-hidden="true"></figure>
   </section>
 
   <section class="niches" aria-labelledby="niches-h">
@@ -545,7 +551,7 @@ section{scroll-margin-top:72px}
         </div>
       </div>
       <ul class="svc-grid">
-          <li class="reveal"><h3>Partnerships</h3><p>Creator management and brand partnerships, from sponsorships to long-term collaborations, with every relationship looked after from start to finish.</p></li>
+          <li class="reveal"><h3>Media Partnerships</h3><p>Creator management and brand partnerships, from sponsorships to long-term collaborations, with every relationship looked after from start to finish.</p></li>
           <li class="reveal d1"><h3>Affiliate Marketing</h3><p>Building an affiliate program or finding the right ones to join, so genuine recommendations keep paying off.</p></li>
           <li class="reveal d2"><h3>Go-to-Market</h3><p>Ideating, pricing and selling what you offer, from a creator&rsquo;s rate card and sponsorship packages to a brand&rsquo;s plan for bringing something new to market.</p></li>
           <li class="reveal"><h3>Brand &amp; Creative Strategy</h3><p>Positioning, voice and the content that brings it to life, whether your brand is a company or the person behind the camera.</p></li>
